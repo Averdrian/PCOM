@@ -11,7 +11,7 @@ public:
 	ord(){}
 	
 	bool operator()(std::pair<int, int> a, std::pair<int, int> b) {
-		return a.fin > b.fin; //not sure
+		return a.fin > b.fin;
 	}
 
 
